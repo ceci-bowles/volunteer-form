@@ -3,39 +3,41 @@
 <head>
   <meta charset="utf-8">
   <title>volunteer-form</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
-<body>
 
-  <header>
-    <h1>Apply to be a tree planter</h1>
-    <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
-  </header>
+<body>
+  <section>
+    <header>
+      <h1>Apply to be a tree planter</h1>
+      <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </header>
+  </section>
 
   <form action="https://formspree.io/bowl0043@algonquinlive.com" method="POST">
-    <fieldset>
-      <legend>
+    <fieldset class="grid">
+      <legend class="unit">
         <h2>Personal details</h2>
       </legend>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <label for="name">Full name</label>
         <input id="name" name="name" required>
         <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
       </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <label for="nickname">What should we call you?</label>
         <input id="nickname" name="nickname" required>
         <p>What all your friends call you, e.g. “Liz”.</p>
       </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <label for="date">Date of birth</label>
         <input type="date" id="date" name="date" required>
       </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <label for="size">T-shirt size</label>
         <select id="size" name="_subject">
           <option value="">Fitted: XS</option>
@@ -50,33 +52,29 @@
           <option>Straight-cut: XL</option>
         </select>
       </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <label for="email">Email</label>
         <input type="email" id="email" name="email" required>
       </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <label for="tel">Phone number (optional)</label>
         <input type="tel" id="tel" name="number" required>
       </div>
     </fieldset>
 
-    <fieldset>
-      <legend>
+    <fieldset class="grid">
+      <legend class="unit">
         <h2>Address</h2>
       </legend>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <label for="address">Street address</label>
         <input id="address" name="address" required>
       </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <label for="city">City</label>
         <input id="city" name="city" required>
       </div>
-      <div>
-        <label for="postal">Postal code</label>
-        <input id="postal" name="postal" required>
-      </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <label for="province">Province</label>
         <select id="province" name="_subject">
           <option value="">Select a province</option>
@@ -95,41 +93,45 @@
           <option>Yukon</option>
         </select>
       </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <label for="postal">Postal code</label>
+        <input id="postal" name="postal" required>
+      </div>
     </fieldset>
 
-    <fieldset>
-      <legend>
+    <fieldset class="grid">
+      <legend class="unit">
         <h2>What activities are you interested in helping with?</h2>
       </legend>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <input type="checkbox" id="digging" name="activities" required>
         <label for="digging">Digging holes</label>
       </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <input type="checkbox" id="dirty" name="activities" required>
         <label for="dirty">Getting dirty</label>
       </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <input type="checkbox" id="lifting" name="activities" required>
         <label for="lifting">Lifting heavy objects</label>
       </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <input type="checkbox" id="driving" name="activities" required>
         <label for="driving">Driving people</label>
       </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <input type="checkbox" id="transporting" name="activities" required>
         <label for="transporting">Transporting trees</label>
       </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <input type="checkbox" id="photos" name="activities" required>
         <label for="photos">Taking photos</label>
       </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <input type="checkbox" id="online" name="activities" required>
         <label for="online">Online publishing</label>
       </div>
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <input type="checkbox" id="managing" name="activities" required>
         <label for="managing">Managing people</label>
       </div>

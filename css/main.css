@@ -1,3 +1,35 @@
-html{
+html {
+  font-family: "Noto Serif", serif;
+}
 
+header {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+fieldset {
+  border: none;
+}
+
+input, select, textarea {
+  border-color: #6e8c62;
+}
+
+[type="checkbox"] + label::before,
+[type="radio"] + label::before {
+  border-color: #6e8c62;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+hr {
+  border-color: rgba(112, 173, 85, .3);
 }

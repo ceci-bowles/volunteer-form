@@ -2,7 +2,7 @@ html {
   font-family: "Noto Serif", serif;
 }
 
-header {
+section {
   background-color: #70ad55;
   color: #fff;
 }
@@ -32,4 +32,12 @@ footer {
 
 hr {
   border-color: rgba(112, 173, 85, .3);
+}
+
+i {
+  color: #70ad55;
+}
+
+textarea {
+  height: 10em;
 }
